@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+i{
+	font-size: 1.1em;
+}
+img{
+	width: 100%;
+}
+
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+.clear{
+	clear: both;
+}
+.primary_color{
+	color: #F4BA02;
+}
+.primary_bgcolor{
+	background-color: #F4BA02;
+}
+.secondary_color{
+	color: #202529;
+}
+
+.secondary_bgcolor{
+	background-color: #202529;
+}
+.navbar{
+	background-color: #000;
+}
+.navbar-brand{
+	color: #F4BA02 !important;
+}
+.navbar-nav a :hover{
+	color: #F4BA02 !important;
+}
+.slider{
+	background-image: url('images/bg-02.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	background-position: center;
+}
+.slider h2{
+	font-size: 60px;
+	padding-top: 300px;
+}
+.slider h1{
+	padding-bottom: 50px;
+	font-size: 70px;
+}
+.btn-start{
+	border-radius: 20px;
+	border: 1px solid #F4BA02;
+}
+.btn-start a{
+	color: #F4BA02;
+}
+.btn-start a:hover{
+	color: #202529;
+}
+.btn-start:hover{
+	border: 1px solid #202529;
+}
+.card-icon{
+	padding: 25px 20px;
+	margin: 20px auto;
+	border-radius: 100px;
+}
+/*team*/
+.card-team{
+	overflow: hidden;
+}
+.img-team{
+	padding: 30px;
+	border: 5px solid #333;
+	border-radius: 300px;
+	transition-duration: 2s;
+}
+.img-team:hover{
+	transform: scale(1.5);
+}
+.background{
+	background-image: url('images/bg-1.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+}
+.timeline-panel{
+	width: 480px;
+    overflow: hidden;
+}
+.timeline-image{
+	width: 150px;
+    overflow: hidden;
+}
+.blank{
+	width: 450px;
+}
+@media screen and (max-width: 1000px;){
+	.timeline-panel{
+		max-width: 50%;
+	}
+	.timeline-image{
+		max-width: 30%;
+
+}
+
+@media screen and (min-width: 760px;){
+	.timeline-panel{
+		min-width: 50% !important;
+		float: right !important;
+	}
+	.timeline-image{
+		min-width: 30% !important;
+
+
+}
